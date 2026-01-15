@@ -1,7 +1,7 @@
 <div align="center">
   
-  <!-- Banner: High-Contrast Dynamic Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,202020,404040,202020,000000&height=250&section=header&text=HELLO%20FRIEND.&fontSize=80&animation=glitch&fontColor=00FF00&fontAlignY=50" alt="Header" />
+  <!-- Banner: Greek/Hacker Fusion (Black & Gold) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,B8860B,DAA520,B8860B,000000&height=250&section=header&text=HELLO%20FRIEND.&fontSize=80&fontAlignY=35&desc=KNOW%20THYSELF.&descSize=25&descAlignY=60&descAlign=50&animation=fadeIn&fontColor=FFD700&stroke=000000&strokeWidth=2" alt="Header" />
 
   <br />
 
