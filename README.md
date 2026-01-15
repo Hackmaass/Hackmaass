@@ -1,7 +1,7 @@
 <div align="center">
   
-  <!-- Banner: Glitch / Hacker Effect -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=250&section=header&text=Omkar%20Rane&fontSize=70&fontAlignY=40&desc=HELLO%20FRIEND.&descAlignY=65&descAlign=50&animation=glitch&fontColor=e50914&stroke=ffffff&strokeWidth=1" alt="Header" />
+  <!-- Banner: High-Contrast Dynamic Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,202020,404040,202020,000000&height=250&section=header&text=HELLO%20FRIEND.&fontSize=80&animation=glitch&fontColor=00FF00&fontAlignY=50" alt="Header" />
 
   <br />
 
@@ -127,7 +127,7 @@ root@omkar-rane:~$ whoami
     <img src="https://img.shields.io/badge/INSTAGRAM-000000?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:omkardrane.work@gmail.com">
+  <a href="mailto:omkarrane0934@gmail.com">
     <img src="https://img.shields.io/badge/ENCRYPTED_MAIL-000000?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;&nbsp;
