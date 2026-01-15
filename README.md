@@ -1,9 +1,7 @@
 <div align="center">
   
-  <!-- Banner: Stark, Dark, "Batman/Hacker" Vibe -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=250&section=header&text=Omkar%20Rane&fontSize=70&fontAlignY=40&desc=HELLO%20FRIEND.&descAlignY=65&descAlign=50&animation=glitch&fontColor=e50914&stroke=ffffff&strokeWidth=1" alt="Header" />
   <br />
-  <!-- Typing SVG: Terminal Style, Green/Red -->
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=VT323&weight=500&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=_System.Initialize(FullStackDev);_Run.Protocol(AI_Engineer);_Execute.Mission(Creative_Coder);_Decrypting.Hardware..." alt="Typing SVG" />
   </a>
@@ -59,38 +57,3 @@ root@omkar-rane:~$ whoami
 ### `>_ Encrypted Data / Stats`
 <div align="center">
   <br />
-  <p>
-    <a href="https://github.com/Hackmaass">
-      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hackmaass&show_icons=true&theme=radical&hide_border=true&bg_color=000000&title_color=e50914&icon_color=00ff00&text_color=ffffff" alt="Omkar's Stats" />
-    </a>
-    <a href="https://github.com/Hackmaass">
-      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hackmaass&layout=compact&theme=radical&hide_border=true&bg_color=000000&title_color=e50914&icon_color=00ff00&text_color=ffffff" alt="Omkar's Top Languages" />
-    </a>
-  </p>
-  
-  <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hackmaass&theme=radical&hide_border=true&background=000000&ring=e50914&fire=e50914&currStreakNum=ffffff" alt="Omkar's Streak" />
-  </p>
-</div>
----
-### `>_ Secure Uplink`
-<div align="center">
-  
-  <a href="https://linkedin.com/in/omkardrane" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://instagram.com/omkararara" target="_blank">
-    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:omkardrane.work@gmail.com">
-    <img src="https://img.shields.io/badge/ENCRYPTED_MAIL-000000?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Hackmaass">
-    <img src="https://img.shields.io/badge/GITHUB_HQ-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-<br /><br />
-  <img src="https://komarev.com/ghpvc/?username=Hackmaass&label=SYSTEM%20VIEWS&color=e50914&style=flat-square" alt="Profile Views" />
-</div>
