@@ -5,16 +5,16 @@
 
   <br />
 
-  <!-- Typing SVG: Terminal Style -->
+  <!-- Typing SVG: Terminal Style (Widened for visibility) -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=VT323&weight=500&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=_System.Initialize(Vigilante);_Run.Protocol(FullStack);_Decrypting.Hardware...;_Mission:Execute" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=VT323&weight=500&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=_System.Initialize(Vigilante);_Run.Protocol(FullStack);_Decrypting.Hardware...;_Mission:Execute" alt="Typing SVG" />
   </a>
 
   <br />
 
-  <!-- Trophies: Dark Theme to match the Batcave -->
+  <!-- Trophies: Radical Theme (Valid Theme) -->
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Hackmaass&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" alt="Omkar's Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=Hackmaass&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Omkar's Trophies" />
   </a>
 
 </div>
