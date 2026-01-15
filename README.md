@@ -12,11 +12,6 @@
 
   <br />
 
-  <!-- Trophies: Radical Theme (Valid Theme) -->
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Hackmaass&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Omkar's Trophies" />
-  </a>
-
 </div>
 
 <br />
@@ -104,7 +99,7 @@ root@omkar-rane:~$ whoami
   
   <br>
 
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/on-productive-time?username=Hackmaass&theme=radical" alt="Productive Time" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Hackmaass&theme=radical&utcOffset=8" alt="Productive Time" />
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hackmaass&theme=radical" alt="StatsCard" />
   
   <br>
