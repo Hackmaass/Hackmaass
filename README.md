@@ -81,7 +81,7 @@ root@omkar-rane:~$ whoami
 | **OPERATION**      | **DEBRIEF**                                                                                                                                | **PROTOCOL**  |
 | :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------- | :-----------: |
 | **[PRASHIKSHAN]**  | **AI-Powered Training Ground**<br>An intelligent agent for interview warfare. Recruits use this to sharpen their skills before deployment. |  `AI` `MERN`  |
-| **[SIGNIFY]**      | **Visual Decryption System**<br>Breaking the encryption of silence. Real-time sign language translation using Computer Vision.             | `CV` `Python` |
+| **[SIGNIFY]**      | **Visual Decryption System**<br>Breaking the encryption of silence. Real-time sign language translation using Computer Vision..            | `CV` `Python` |
 | **[NORRIS_CLONE]** | **Digital Stealth & Aesthetics**<br>High-fidelity web target execution. Cinematic scrolling and 3D maneuvers for maximum impact.           | `3JS` `GSAP`  |
 | **[ENERGY_NET]**   | **Power Harvesting Grid**<br>Autonomous energy extraction from piezo sources. Visualized via custom OLED interface.                        |  `IoT` `C++`  |
 
