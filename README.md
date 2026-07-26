@@ -80,7 +80,7 @@ root@omkar-rane:~$ whoami
 
 | **OPERATION**      | **DEBRIEF**                                                                                                                                | **PROTOCOL**  |
 | :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------- | :-----------: |
-| **[PRASHIKSHAN]**  | **AI-Powered Training Ground**<br>An intelligent agent for interview warfare. Recruits use this to sharpen their skills before deployment. |  `AI` `MERN`  |
+| **[PRASHIKSHAN]**  | **AI-Powered .Training Ground**<br>An intelligent agent for interview warfare. Recruits use this to sharpen their skills before deployment. |  `AI` `MERN`  |
 | **[SIGNIFY]**      | **Visual Decryption System**<br>Breaking the encryption of silence. Real-time sign language translation using Computer Vision..            | `CV` `Python` |
 
 
