@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="850" height="210">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700;800&amp;display=swap');
+      .font { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .tele-left { fill: #58a6ff; font-size: 11px; font-weight: 700; letter-spacing: 1px; }
+      .tele-right { fill: #ff4757; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; }
+      .title-glow { font-size: 50px; font-weight: 800; letter-spacing: 8px; text-anchor: middle; fill: #b8860b; }
+      .title-main { font-size: 50px; font-weight: 800; letter-spacing: 8px; text-anchor: middle; fill: #ffd700; }
+      .sub-title { font-size: 13.5px; font-weight: 600; fill: #e6edf3; letter-spacing: 2px; text-anchor: middle; }
+      .sub-bracket { fill: #ffd700; font-weight: 700; }
+      .tag-text { fill: #8b949e; font-size: 11.5px; font-weight: 600; letter-spacing: 1px; }
+      .tag-bracket { fill: #484f58; }
+      .tag-active { fill: #79c0ff; }
+    </style>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="hud-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#161b22" stroke-width="0.8" />
+    </pattern>
+
+    <!-- Scanline Gradient -->
+    <linearGradient id="scanline-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffd700" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ff4757" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Title Glow Filter -->
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="850" height="210" fill="#0d1117" />
+  <rect width="850" height="210" fill="url(#hud-grid)" opacity="0.85" />
+
+  <!-- Animated Radar/Scanline Sweep -->
+  <line x1="20" y1="15" x2="20" y2="195" stroke="url(#scanline-grad)" stroke-width="2.5" opacity="0.5">
+    <animate attributeName="x1" values="25;825;25" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="x2" values="25;825;25" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2;0.65;0.2" dur="7s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Outer Tech Border Frame -->
+  <rect x="15" y="15" width="820" height="180" fill="none" stroke="#21262d" stroke-width="1" />
+
+  <!-- Gold Targeting Corner Brackets -->
+  <g stroke="#ffd700" stroke-width="2.5" fill="none">
+    <!-- Top-Left -->
+    <path d="M 15 45 L 15 15 L 45 15" />
+    <!-- Top-Right -->
+    <path d="M 805 15 L 835 15 L 835 45" />
+    <!-- Bottom-Left -->
+    <path d="M 15 165 L 15 195 L 45 195" />
+    <!-- Bottom-Right -->
+    <path d="M 805 195 L 835 195 L 835 165" />
+  </g>
+
+  <!-- Crosshair Accent Marks -->
+  <g stroke="#30363d" stroke-width="1">
+    <line x1="420" y1="15" x2="430" y2="15" stroke="#ffd700" stroke-width="1.5" />
+    <line x1="15" y1="100" x2="22" y2="100" stroke="#ffd700" stroke-width="1.5" />
+    <line x1="828" y1="100" x2="835" y2="100" stroke="#ffd700" stroke-width="1.5" />
+    <line x1="420" y1="195" x2="430" y2="195" stroke="#ffd700" stroke-width="1.5" />
+  </g>
+
+  <g class="font">
+    <!-- Top Telemetry Row -->
+    <g transform="translate(32, 34)">
+      <!-- Pulsing Green Node -->
+      <circle cx="0" cy="-3.5" r="3.5" fill="#00ff87">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="12" y="0" class="tele-left">SYS_ID: HACKMAASS-01 // PROTOCOL: VIGILANTE ACTIVE</text>
+
+      <!-- Pulsing Restricted Tag -->
+      <text x="786" y="0" class="tele-right" text-anchor="end">
+        <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" />
+        [ SEC_LEVEL: RESTRICTED ]
+      </text>
+    </g>
+
+    <!-- Main Title: OMKARA -->
+    <g transform="translate(425, 102)">
+      <!-- 3D Shadow / Bevel -->
+      <text x="3" y="3" class="title-glow">OMKARA</text>
+      <!-- Glowing Foreground -->
+      <text x="0" y="0" class="title-main" filter="url(#gold-glow)">OMKARA</text>
+    </g>
+
+    <!-- Subtitle: Digital Architect & Systems Crafter -->
+    <text x="425" y="136" class="sub-title">
+      <tspan class="sub-bracket">&lt; </tspan>DIGITAL ARCHITECT • LOW-LEVEL SYSTEMS &amp; AI COPILOTS<tspan class="sub-bracket"> /&gt;</tspan>
+    </text>
+
+    <!-- Thin Divider Line -->
+    <line x1="20" y1="158" x2="830" y2="158" stroke="#21262d" stroke-width="1" />
+    <line x1="365" y1="158" x2="485" y2="158" stroke="#30363d" stroke-width="1.5" />
+
+    <!-- Bottom Specialization Tags -->
+    <g transform="translate(425, 180)" text-anchor="middle" class="tag-text">
+      <text x="0" y="0">
+        <tspan class="tag-bracket">[ </tspan><tspan class="tag-active">C++ / OS</tspan><tspan class="tag-bracket"> ]</tspan>
+        <tspan fill="#30363d">&#160;&#160;•&#160;&#160;</tspan>
+        <tspan class="tag-bracket">[ </tspan><tspan class="tag-active">AI AGENTS</tspan><tspan class="tag-bracket"> ]</tspan>
+        <tspan fill="#30363d">&#160;&#160;•&#160;&#160;</tspan>
+        <tspan class="tag-bracket">[ </tspan><tspan class="tag-active">CYBERSECURITY</tspan><tspan class="tag-bracket"> ]</tspan>
+        <tspan fill="#30363d">&#160;&#160;•&#160;&#160;</tspan>
+        <tspan class="tag-bracket">[ </tspan><tspan class="tag-active">REVERSE ENG</tspan><tspan class="tag-bracket"> ]</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,B8860B,DAA520,B8860B,000000&height=250&section=header&text=OMKAR%20RANE&fontSize=75&fontAlignY=36&desc=KNOW%20THYSELF.%20//%20DIGITAL%20ARCHITECT%20%E2%80%A2%20SYSTEMS%20ENGINEER&descSize=19&descAlignY=60&descAlign=50&animation=fadeIn&fontColor=FFD700&stroke=000000&strokeWidth=2" alt="Header" />
+  <img src="header.svg" alt="Omkara - Digital Architect &amp; Systems Crafter" width="100%" />
 
   <br />
 
