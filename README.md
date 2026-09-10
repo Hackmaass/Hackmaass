@@ -17,6 +17,12 @@
 
 ### `>_ System.Identity`
 
+<div align="center">
+  <img src="terminal.svg" alt="Terminal Protocol" width="620" />
+</div>
+
+<br />
+
 ```bash
 root@omkar-rane:~$ neofetch --architecture "Autonomous & Low-Level"
   ██████╗  ██████╗   OPERATOR: Omkar Rane (@Hackmaass)
