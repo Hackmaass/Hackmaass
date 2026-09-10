@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 430" width="740" height="430">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap');
+      .font { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 13px; }
+      .prompt-user { fill: #58a6ff; font-weight: 700; }
+      .prompt-sym { fill: #c9d1d9; }
+      .cmd-text { fill: #00ff87; font-weight: 700; }
+      .hood-main { fill: #ff4757; font-weight: 700; }
+      .hood-rim { fill: #ff6b81; font-weight: 700; }
+      .face-glasses { fill: #ffd700; font-weight: 700; }
+      .title-user { fill: #58a6ff; font-weight: 700; font-size: 14px; }
+      .title-sep { fill: #484f58; }
+      .spec-key { fill: #ffd700; font-weight: 700; }
+      .spec-val { fill: #e6edf3; }
+      .cursor { fill: #00ff87; }
+    </style>
+  </defs>
+
+  <g class="font">
+    <!-- Window Shadow -->
+    <rect x="15" y="15" width="710" height="400" rx="10" ry="10" fill="#010409" opacity="0.6" />
+    <!-- Window Body -->
+    <rect x="10" y="10" width="710" height="400" rx="10" ry="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+    <!-- Window Header Bar -->
+    <rect x="10" y="10" width="710" height="36" rx="10" ry="10" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+    <rect x="11" y="32" width="708" height="14" fill="#161b22" />
+
+    <!-- macOS/Linux Dots -->
+    <circle cx="32" cy="28" r="6" fill="#ff5f56" />
+    <circle cx="52" cy="28" r="6" fill="#ffbd2e" />
+    <circle cx="72" cy="28" r="6" fill="#27c93f" />
+    <text x="365" y="32" fill="#8b949e" font-size="12" font-weight="700" text-anchor="middle">omkar@hackmaass: ~ (neofetch)</text>
+
+    <!-- 1. Command Typing Line: root@omkar-rane:~$ neofetch -->
+    <g transform="translate(35, 75)">
+      <text x="0" y="0">
+        <tspan class="prompt-user">root@omkar-rane</tspan><tspan class="prompt-sym">:~$ </tspan>
+      </text>
+
+      <!-- Typing clip path for 'neofetch' (74px width) -->
+      <clipPath id="cmd-clip">
+        <rect x="150" y="-14" width="0" height="20">
+          <animate attributeName="width" values="0;0;74;74;0;0" keyTimes="0;0.04;0.12;0.88;0.8801;1" dur="10s" repeatCount="indefinite" />
+        </rect>
+      </clipPath>
+      <text x="150" y="0" class="cmd-text" clip-path="url(#cmd-clip)">neofetch</text>
+
+      <!-- Typing Cursor -->
+      <rect x="150" y="-13" width="8" height="16" class="cursor">
+        <animate attributeName="x" values="150;150;226;226;150;150" keyTimes="0;0.04;0.12;0.88;0.8801;1" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0;1;0;1;1;0;0;0;0" keyTimes="0;0.01;0.02;0.03;0.04;0.13;0.1301;0.88;0.8801;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- 2. Neofetch Output Streaming Downward -->
+    <clipPath id="output-reveal">
+      <rect x="0" y="0" width="710" height="0">
+        <animate attributeName="height" values="0;0;260;260;0;0" keyTimes="0;0.13;0.22;0.88;0.8801;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <g transform="translate(35, 100)" clip-path="url(#output-reveal)">
+
+      <!-- Left Column: Hooded Vigilante ASCII Art with Red Rim Lighting -->
+      <g font-size="12" xml:space="preserve">
+        <text x="0" y="15" class="hood-main">           .---.          </text>
+        <text x="0" y="30" class="hood-main">          /     \         </text>
+        <text x="0" y="45" class="hood-main">         /  .-.  \        </text>
+        <text x="0" y="60" class="hood-main">        /  /   \  \       </text>
+        <text x="0" y="75" class="hood-main">       /  /     \  \      </text>
+        <text x="0" y="90" class="hood-main">      /  /   _   \  \     </text>
+        <text x="0" y="105"><tspan class="hood-main">     /  /  </tspan><tspan class="face-glasses">[===]</tspan><tspan class="hood-rim">  \  \    </tspan></text>
+        <text x="0" y="120"><tspan class="hood-main">    /  /   </tspan><tspan class="face-glasses">|o o|</tspan><tspan class="hood-rim">   \  \   </tspan></text>
+        <text x="0" y="135"><tspan class="hood-main">   |  /     </tspan><tspan class="face-glasses">\-/</tspan><tspan class="hood-rim">     \  |  </tspan></text>
+        <text x="0" y="150" class="hood-main">   | /     .---.     \ |  </text>
+        <text x="0" y="165" class="hood-main">   |/     /     \     \|  </text>
+        <text x="0" y="180" class="hood-main">   /     |  .-.  |     \  </text>
+        <text x="0" y="195" class="hood-main">  /       \ '-' /       \ </text>
+        <text x="0" y="210" class="hood-main"> '---------'---'---------'</text>
+      </g>
+
+      <!-- Right Column: Neofetch Specs Output -->
+      <g transform="translate(245, 12)">
+        <!-- Title & Divider -->
+        <text x="0" y="0" class="title-user">omkar@hackmaass</text>
+        <text x="0" y="14" class="title-sep">--------------------------------------</text>
+
+        <!-- Specs lines -->
+        <text x="0" y="34"><tspan class="spec-key">OS: </tspan><tspan class="spec-val">Arch Linux x86_64 // Windows 11</tspan></text>
+        <text x="0" y="52"><tspan class="spec-key">Host: </tspan><tspan class="spec-val">Digital Architect System Rig</tspan></text>
+        <text x="0" y="70"><tspan class="spec-key">Kernel: </tspan><tspan class="spec-val">6.10.9-arch1 // NT 10.0</tspan></text>
+        <text x="0" y="88"><tspan class="spec-key">Uptime: </tspan><tspan class="spec-val">24/7 [Vigilante Protocol Active]</tspan></text>
+        <text x="0" y="106"><tspan class="spec-key">Shell: </tspan><tspan class="spec-val">zsh 5.9 // PowerShell 7.4</tspan></text>
+        <text x="0" y="124"><tspan class="spec-key">Specialization: </tspan><tspan class="spec-val">Low-Level OS &amp; Cyber Copilots</tspan></text>
+        <text x="0" y="142"><tspan class="spec-key">Core Stack: </tspan><tspan class="spec-val">C++, Python, TypeScript, Next.js</tspan></text>
+        <text x="0" y="160"><tspan class="spec-key">Creed: </tspan><tspan class="spec-val">"Chaos of hardware -> Order of code"</tspan></text>
+
+        <!-- Color Palette Swatches -->
+        <g transform="translate(0, 185)">
+          <rect x="0" y="0" width="18" height="12" fill="#000000" />
+          <rect x="22" y="0" width="18" height="12" fill="#ff4757" />
+          <rect x="44" y="0" width="18" height="12" fill="#2ed573" />
+          <rect x="66" y="0" width="18" height="12" fill="#ffa502" />
+          <rect x="88" y="0" width="18" height="12" fill="#1e90ff" />
+          <rect x="110" y="0" width="18" height="12" fill="#9b59b6" />
+          <rect x="132" y="0" width="18" height="12" fill="#70a1ff" />
+          <rect x="154" y="0" width="18" height="12" fill="#ffffff" />
+        </g>
+      </g>
+    </g>
+
+    <!-- 3. Bottom Prompt with Blinking Cursor -->
+    <g transform="translate(35, 365)">
+      <animate attributeName="visibility" values="hidden;hidden;visible;visible;hidden;hidden" keyTimes="0;0.23;0.23;0.88;0.8801;1" dur="10s" repeatCount="indefinite" />
+      <text x="0" y="0">
+        <tspan class="prompt-user">root@omkar-rane</tspan><tspan class="prompt-sym">:~$ </tspan>
+      </text>
+      <rect x="150" y="-13" width="8" height="16" class="cursor">
+        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0;0" keyTimes="0;0.23;0.26;0.31;0.36;0.41;0.46;0.51;0.56;0.61;0.66;0.71;0.76;0.81;0.84;0.86;0.875;0.88;0.8801;1" dur="10s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

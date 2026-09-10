@@ -17,32 +17,9 @@
 
 ### `>_ System.Identity`
 
-```bash
-root@omkar-rane:~$ neofetch --operator
-
-                 :...-=++:
-              -=-     .:%@@#
-            +:    :::--::-*@@@
-          --            .:::-@@+
-         +.        .::-+*-=%*-=@@           OPERATOR: Omkar Rane (@Hackmaass)
-        +      ::.       :.:#%--@@.         ROLE: Digital Architect & Systems Crafter
-       +    .:.              .*%#@@:        SPECIALIZATION: Low-Level OS, Cyber Copilots & AI Agents
-      #   ::                    .*@@=       CORE ARSENAL: C++, Python, TypeScript, PowerShell, Next.js
-    .+  :.        .           -:  .-@+      SYSTEM HOST: Windows 11 // Arch Linux
-   =*                         *     .%*     MISSION STATUS: Deploying High-Impact Systems // Vigilante Active
-  #+                               -# +%    PHILOSOPHY: "Bridge the chaos of hardware with the elegance of code."
- *:           *+.                 #-    #:
-:        +  :%%%@@%#-       ::%.         -
-          #.*--::  .:::.     .%::
-           .@@@#+=---@= ..:::#@        .
-.           %@@@@++@@@#---*+-@=        .
- --          @@@%+%@@@=-=:-=#:           :
-.  :          %@@+++=-:.:-**           .+-
-    #-         =@@@@+=+===:          --# #
-     :::       :-=%@@%*=:.        .--   .+
- :              :::-:.   .     ..::     -
-                 :=--:::.
-```
+<div align="center">
+  <img src="neofetch.svg" alt="Neofetch Terminal Protocol" width="740" />
+</div>
 
 ---
 
