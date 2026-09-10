@@ -60,7 +60,6 @@
           keyTimes="0;0.04;0.06;0.08;0.10;0.12;0.14;0.16;0.18;0.20;0.88;0.8801;1"
           dur="10s"
           repeatCount="indefinite" />
-        <!-- Cursor blinks while idle, stays solid while typing, disappears on enter -->
         <animate attributeName="opacity"
           values="1;0;1;1;1;1;1;1;1;1;0;0;0;0"
           keyTimes="0;0.02;0.04;0.06;0.08;0.10;0.12;0.14;0.16;0.20;0.21;0.88;0.8801;1"
@@ -576,22 +575,9 @@
         <text x="315" y="305"><tspan class="spec-key">Core Arsenal: </tspan><tspan class="spec-val">C++, Python, TypeScript, Next.js</tspan></text>
         <text x="315" y="323"><tspan class="spec-key">Creed: </tspan><tspan class="spec-val">"Chaos of hardware -&gt; Order of code"</tspan></text>
 
-        <rect x="315" y="349" width="20" height="12" rx="2" fill="#1a1b26" />
-        <rect x="339" y="349" width="20" height="12" rx="2" fill="#f7768e" />
-        <rect x="363" y="349" width="20" height="12" rx="2" fill="#9ece6a" />
-        <rect x="387" y="349" width="20" height="12" rx="2" fill="#e0af68" />
-        <rect x="411" y="349" width="20" height="12" rx="2" fill="#7aa2f7" />
-        <rect x="435" y="349" width="20" height="12" rx="2" fill="#bb9af7" />
-        <rect x="459" y="349" width="20" height="12" rx="2" fill="#7dcfff" />
-        <rect x="483" y="349" width="20" height="12" rx="2" fill="#c0caf5" />
-        <rect x="315" y="365" width="20" height="12" rx="2" fill="#414868" />
-        <rect x="339" y="365" width="20" height="12" rx="2" fill="#ff9e64" />
-        <rect x="363" y="365" width="20" height="12" rx="2" fill="#73daca" />
-        <rect x="387" y="365" width="20" height="12" rx="2" fill="#b4f9f8" />
-        <rect x="411" y="365" width="20" height="12" rx="2" fill="#2ac3de" />
-        <rect x="435" y="365" width="20" height="12" rx="2" fill="#cfc9c2" />
-        <rect x="459" y="365" width="20" height="12" rx="2" fill="#9aa5ce" />
-        <rect x="483" y="365" width="20" height="12" rx="2" fill="#ffffff" />
+        <!-- Stylized ASCII Symbols in place of color blocks -->
+        <text x="315" y="353"><tspan fill="#484f58">[</tspan><tspan fill="#58a6ff" font-weight="700">&gt;</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#f7768e" font-weight="700">#</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#9ece6a" font-weight="700">*</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#e0af68" font-weight="700">+</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#7aa2f7" font-weight="700">%</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#bb9af7" font-weight="700">$</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#7dcfff" font-weight="700">@</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#e6edf3" font-weight="700">!</tspan><tspan fill="#484f58">] </tspan></text>
+        <text x="315" y="371"><tspan fill="#484f58">[</tspan><tspan fill="#6e7681" font-weight="700">~</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#ff7b72" font-weight="700">&amp;</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#56d364" font-weight="700">^</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#e3b341" font-weight="700">/</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#79c0ff" font-weight="700">|</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#d2a8ff" font-weight="700">?</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#56b6c2" font-weight="700">:</tspan><tspan fill="#484f58">] </tspan><tspan fill="#484f58">[</tspan><tspan fill="#ffffff" font-weight="700">=</tspan><tspan fill="#484f58">] </tspan></text>
       </g>
     </g>
 
