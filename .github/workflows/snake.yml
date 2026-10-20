@@ -20,8 +20,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           # color_dots: exactly 5 colors, first = zero contributions
           outputs: |
-            dist/github-snake-dark.svg?color_snake=#ff4757&color_dots=#161b22,#4d3f00,#8a6d00,#cfa800,#ffd700
-            dist/github-snake.svg?color_snake=#cf222e&color_dots=#ebedf0,#ffe58a,#ffd700,#d9a400,#b8860b
+            dist/github-snake-dark.svg?color_snake=#FF5B2E&color_dots=#1b2140,#3446ff,#6672ff,#99a2ff,#e6e9ff
+            dist/github-snake.svg?color_snake=#FF5B2E&color_dots=#e8ebff,#b9c2ff,#7f8cff,#4a5bff,#2b3bff
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
