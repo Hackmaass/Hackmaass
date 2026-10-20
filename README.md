@@ -1,54 +1,44 @@
-<img src="assets/hero.svg" alt="Omkar Rane. I build agents, smart contracts and dev tools at hackathons, then ship them live. Built at Graph Hacks, Monad Blitz Pune V3, Vortexa 3.0, MST × Newrro Buildathon, AWS Bharat Builds, Flytbase and Virtual Prompt Wars 3." width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+  <img alt="Omkar Rane" src="assets/banner-light.svg" width="100%" />
+</picture>
+
+I build AI agents, smart-contract systems and developer tools. Most of what's below is deployed, so you can try it. You can reach me at [omkarrane0934@gmail.com](mailto:omkarrane0934@gmail.com), on [LinkedIn](https://linkedin.com/in/omkardrane) or on [X](https://x.com/OmkarRa72850136).
 
 ## Selected work
 
-<a href="https://github.com/Hackmaass/Chokepoint"><img src="assets/chokepoint.svg" alt="Chokepoint. Graph Hacks, Oct 2026. An investigation agent on FalkorDB that finds the few accounts to freeze so no route for stolen money is left. Python, FalkorDB, Agents." width="100%" /></a>
+### [Chokepoint](https://github.com/Hackmaass/Chokepoint)
 
-[Live demo](https://chokepoint-uou2.onrender.com/) · [Source](https://github.com/Hackmaass/Chokepoint)
+An investigation agent on FalkorDB. Given a fraud alert, it works out the few accounts to freeze so no route for stolen money is left, then checks the plan on a copy of the graph before a person approves it. A minimum cut needs a median of 1 account where a most-recent-recipients rule needs 3, and a verified plan takes a median of 0.27 s. It also caught FalkorDB returning a wrong max-flow answer (300 against the true 453) and gained a verified repair path. [Live demo](https://chokepoint-uou2.onrender.com/).
 
-<a href="https://github.com/Hackmaass/Sublevel"><img src="assets/sublevel.svg" alt="Sublevel. Monad Blitz Pune V3. A card duel on Monad: both fighters seal a move in secret, and a contract resolves the turn. Solidity, Monad testnet, ERC-721." width="100%" /></a>
+### [Sublevel](https://github.com/Hackmaass/Sublevel)
 
-[Live demo](https://sublevel-theta.vercel.app) · [Source](https://github.com/Hackmaass/Sublevel)
+A two-player card duel on Monad testnet. Both fighters seal a move in secret and a contract resolves the turn, so no one can see or change a move afterwards. Fighters are NFTs whose records only the arena contract can write. Five contracts are deployed and source-verified. [Live demo](https://sublevel-theta.vercel.app).
 
-<a href="https://github.com/Hackmaass/SealStone"><img src="assets/sealstone.svg" alt="Sealstone. Vortexa 3.0, Team Torvalds. Milestone escrow built to resist ambiguous terms, swapped deliverables and malicious contracts. TypeScript, Solidity, MST testnet." width="100%" /></a>
+### [Sealstone](https://github.com/Hackmaass/SealStone)
 
-[Live demo](https://sealstone-rose.vercel.app/) · [Source](https://github.com/Hackmaass/SealStone)
+Milestone escrow for agreements that can't be gamed. Terms are signed by both sides as a hash, and the vault is tested against attacker contracts for reentrancy, forced ETH and rejecting recipients. Deployed on MST testnet. [Live demo](https://sealstone-rose.vercel.app/).
 
-<a href="https://github.com/Hackmaass/TamperSafe"><img src="assets/tampersafe.svg" alt="TamperSafe. MST × Newrro 24-hour buildathon. A tamper-evident container that locks at origin, watches itself in transit and settles payment on-chain. Solidity, ESP32, MST testnet." width="100%" /></a>
+### [TamperSafe](https://github.com/Hackmaass/TamperSafe)
 
-[Live demo](https://tampersafe.vercel.app/) · [Source](https://github.com/Hackmaass/TamperSafe)
+A tamper-evident container that locks at origin, watches itself in transit and settles payment on-chain by rules fixed before dispatch. A clean delivery pays the seller. A tamper refunds the buyer and slashes the courier's bond. ESP32-S3 sensors feed an escrow contract on MST testnet. [Live demo](https://tampersafe.vercel.app/).
 
-<a href="https://github.com/Hackmaass/Diskman"><img src="assets/diskman.svg" alt="Diskman. Open source. A Windows storage visualizer and cache cleaner in native PowerShell and WPF, with no external runtimes. PowerShell, WPF, 36 cleanup targets." width="100%" /></a>
+### [Diskman](https://github.com/Hackmaass/Diskman)
 
-[Source](https://github.com/Hackmaass/Diskman)
+A lightweight Windows storage visualizer and cache cleaner in native PowerShell and WPF. It has 36 cleanup targets, no external dependencies and a fail-closed safety engine.
 
-<a href="https://github.com/Hackmaass/Ada"><img src="assets/ada.svg" alt="Ada. TalentGraph AI platform. Evidence-driven hiring: ADA, a multi-agent assistant, reasons over a candidate's real work, not their resume. TypeScript, Python, Multi-agent." width="100%" /></a>
+### [Ada](https://github.com/Hackmaass/Ada)
 
-[Live demo](https://ada-gules.vercel.app) · [Source](https://github.com/Hackmaass/Ada)
+Evidence-driven hiring. ADA, a multi-agent assistant, builds a model of each candidate from their actual work (GitHub, projects, interviews) and gives recommendations where every score is explainable. [Live demo](https://ada-gules.vercel.app).
 
-Also shipped: [Signify_](https://github.com/Hackmaass/Signify_), a sign language tutor · [CT-Flow](https://github.com/Hackmaass/CT-Flow), a cybersecurity copilot · [Veyra](https://github.com/Hackmaass/Veyra), an intelligent companion · [Kevin](https://github.com/Hackmaass/Kevin), a desktop companion in C++
+I've also built [Signify_](https://github.com/Hackmaass/Signify_), a sign language tutor, [CT-Flow](https://github.com/Hackmaass/CT-Flow), a cybersecurity copilot, [Veyra](https://github.com/Hackmaass/Veyra), an intelligent companion, and [Kevin](https://github.com/Hackmaass/Kevin), a desktop companion in C++.
 
-## Toolbelt
+## What I work with
 
-<img src="assets/stack.svg" alt="Toolbelt. Agents and data: Python, RAG, multi-agent systems, FalkorDB, FastAPI, OpenCV, TensorFlow. Chains: Solidity, Monad, MST Blockchain, ERC-721, testnet deployments. Web: TypeScript, Next.js, React, Tailwind, Node.js, Three.js, Firebase, MongoDB. Systems and tools: C, C++, PowerShell, Bash, Linux, Docker, Git, ESP32, Arduino." width="100%" />
+**Agents and data:** Python, RAG, multi-agent systems, FalkorDB, FastAPI, OpenCV, TensorFlow
 
-## Activity
+**Smart contracts:** Solidity, ERC-721, Monad, MST Blockchain
 
-<div align="center">
+**Web:** TypeScript, Next.js, React, Tailwind, Node.js
 
-<img width="64%" src="https://streak-stats.demolab.com/?user=Hackmaass&background=F4F6FF&ring=2B3BFF&fire=FF5B2E&currStreakNum=0B1033&sideNums=0B1033&currStreakLabel=2B3BFF&sideLabels=0B1033&dates=0B1033&stroke=2B3BFF&border=2B3BFF&borderRadius=0" alt="Contribution streak" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Hackmaass&show_icons=true&bg_color=F4F6FF&title_color=2B3BFF&text_color=0B1033&icon_color=FF5B2E&border_color=2B3BFF&ring_color=2B3BFF&border_radius=0" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hackmaass&layout=compact&bg_color=F4F6FF&title_color=2B3BFF&text_color=0B1033&border_color=2B3BFF&border_radius=0" alt="Most used languages" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hackmaass/Hackmaass/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hackmaass/Hackmaass/output/github-snake.svg" />
-  <img alt="Contribution graph as a snake game" src="https://raw.githubusercontent.com/Hackmaass/Hackmaass/output/github-snake-dark.svg" width="100%" />
-</picture>
-
-</div>
-
-<img src="assets/closer.svg" alt="Building something? Let's talk." width="100%" />
-
-[omkarrane0934@gmail.com](mailto:omkarrane0934@gmail.com) · [LinkedIn](https://linkedin.com/in/omkardrane) · [X](https://x.com/OmkarRa72850136) · [Instagram](https://instagram.com/omkararara)
+**Systems:** C, C++, PowerShell, Bash, Linux, Docker, ESP32
